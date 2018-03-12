@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@mipmap/dairy_1"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/NewPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:inputType="numberPassword"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="numberPassword"
+        app:layout_constraintTop_toBottomOf="@+id/NewPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <View
+        android:id="@+id/boundary"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="清空"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/shape"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/boundary"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPassword"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="登录"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/shape"
+        app:layout_constraintLeft_toLeftOf="@+id/boundary"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPassword"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/close_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:card_view="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/body"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="7dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+		card_view:cardCornerRadius="8dp"
+		card_view:cardElevation="5dp"
+		card_view:contentPadding="4dp"
+		android:foreground="?attr/selectableItemBackground">
+
+
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<CheckBox
+				android:id="@+id/finish"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<TextView
+				android:id="@+id/time"
+				android:text="2017/12/19"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"   />
+
+			<TextView
+				android:id="@+id/affair"
+				android:singleLine="false"
+				android:text="去超市买很多很多零食，要有薯片和可乐。然后去看最新的电影，听说超搞笑但我不能笑得太没形象"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:layout_below="@id/time" />
+
+			<TextView
+				android:id="@+id/deadline"
+				android:text="Deadline："
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:layout_below="@id/affair" />
+
+		</LinearLayout>
+
+	</android.support.v7.widget.CardView>

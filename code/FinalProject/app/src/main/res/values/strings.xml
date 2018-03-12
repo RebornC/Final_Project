@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">备忘</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="introduction">『主界面说明』\n
+左上角可以呼出左侧栏，右上角可以退出备忘录。\n
+『左侧栏』\n
+更换头像：可以从本地文件中选择图片来自定义头像。\n
+昵称＆签名：点击进入修改个性昵称和签名。\n
+用户指南：为用户介绍本APP的主要功能。\n
+开发者：开发介绍。\n
+更换风格：共有五种个性风格界面供君选择。\n
+初始风格：对更换风格不满意，一键换回初始风格。\n『四大功能板块』\n\n\n
+密码管家：首次进入需创建密码，创建成功之后每次仅凭密码即可进入密码管家界面。通过点击右下角来创建你需要记录的账号密码。点击可进行修改，长按可进行删除。\n
+日志：首次进入需创建密码，创建成功之后每次仅凭密码即可进入日志界面，通过点击右下角来创建你的新日志吧！点击日志名称可进行重新编辑，长按也可删除哦。
+\n
+生日备忘录：点击进入生日备忘录界面，通过右下角的来创建新的朋友生日条目吧！也可进行修改删除。\n
+待办事项：点击进入待办事项界面，通过右下角的+来创建新的待办事项和DDL，完成之后可以在条目的左上角勾选完成。每次进入界面，待办事项都会按ddl自动排序，将最紧急的事件呈现在你眼前。\n\n
+小提示：生日和待办事项都可以通过点击上方的图片来进行时间的排序哦！</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232427</color>
+    <color name="colorPrimaryDark">#232427</color>
+    <color name="colorAccent">#232427</color>
+
+    <color name="color_head_bg1">#232427</color>
+    <color name="color_head_bg2">#d19daa</color>
+    <color name="color_head_bg3">#f8f3df</color>
+    <color name="color_head_bg4">#3a434a</color>
+    <color name="color_head_bg5">#5d9ea0</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_tra">#99ffffff</color>
+    <color name="black">#232427</color>
+    <color name="black_tra">#99232427</color>
+    <color name="pink">#99d52865</color>
+</resources>
